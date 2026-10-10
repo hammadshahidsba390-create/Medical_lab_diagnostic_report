@@ -1,0 +1,33 @@
+{
+  "_note": "typical_range is illustrative and used ONLY to generate synthetic test reports. The application always uses the reference range printed on the user's own report.",
+  "biomarkers": [
+    {"id": "hemoglobin", "name": "Hemoglobin", "category": "CBC", "unit": "g/dL", "typical_range": "13.0 - 17.0", "decimals": 1, "aliases": ["Hb", "HGB", "Haemoglobin", "Haemoglobin (Hb)", "Hemoglobin (Hb)"]},
+    {"id": "wbc", "name": "White Blood Cell Count", "category": "CBC", "unit": "x10^3/uL", "typical_range": "4.0 - 11.0", "decimals": 1, "aliases": ["WBC", "TLC", "Total Leucocyte Count", "Total Leukocyte Count", "White Blood Cells"]},
+    {"id": "rbc", "name": "Red Blood Cell Count", "category": "CBC", "unit": "million/uL", "typical_range": "4.5 - 5.5", "decimals": 2, "aliases": ["RBC", "Total RBC Count", "Red Blood Cells", "Red Cell Count"]},
+    {"id": "platelets", "name": "Platelet Count", "category": "CBC", "unit": "x10^3/uL", "typical_range": "150 - 410", "decimals": 0, "aliases": ["PLT", "Platelets", "Platelet"]},
+    {"id": "hematocrit", "name": "Hematocrit", "category": "CBC", "unit": "%", "typical_range": "40 - 50", "decimals": 1, "aliases": ["HCT", "PCV", "Packed Cell Volume", "Haematocrit"]},
+    {"id": "mcv", "name": "Mean Corpuscular Volume", "category": "CBC", "unit": "fL", "typical_range": "83 - 101", "decimals": 1, "aliases": ["MCV"]},
+    {"id": "mch", "name": "Mean Corpuscular Hemoglobin", "category": "CBC", "unit": "pg", "typical_range": "27 - 32", "decimals": 1, "aliases": ["MCH"]},
+    {"id": "mchc", "name": "Mean Corpuscular Hemoglobin Concentration", "category": "CBC", "unit": "g/dL", "typical_range": "31.5 - 34.5", "decimals": 1, "aliases": ["MCHC"]},
+    {"id": "total_cholesterol", "name": "Total Cholesterol", "category": "Lipid", "unit": "mg/dL", "typical_range": "< 200", "decimals": 0, "aliases": ["Cholesterol", "Cholesterol Total", "Serum Cholesterol", "T. Cholesterol"]},
+    {"id": "ldl", "name": "LDL Cholesterol", "category": "Lipid", "unit": "mg/dL", "typical_range": "< 100", "decimals": 0, "aliases": ["LDL", "LDL-C", "LDL Cholesterol Direct", "Low Density Lipoprotein"]},
+    {"id": "hdl", "name": "HDL Cholesterol", "category": "Lipid", "unit": "mg/dL", "typical_range": "> 40", "decimals": 0, "aliases": ["HDL", "HDL-C", "High Density Lipoprotein"]},
+    {"id": "triglycerides", "name": "Triglycerides", "category": "Lipid", "unit": "mg/dL", "typical_range": "< 150", "decimals": 0, "aliases": ["TG", "TGL", "Serum Triglycerides"]},
+    {"id": "glucose_fasting", "name": "Fasting Glucose", "category": "Diabetes", "unit": "mg/dL", "typical_range": "70 - 100", "decimals": 0, "aliases": ["FBS", "FBG", "Fasting Blood Sugar", "Glucose Fasting", "Blood Glucose Fasting"]},
+    {"id": "hba1c", "name": "HbA1c", "category": "Diabetes", "unit": "%", "typical_range": "4.0 - 5.6", "decimals": 1, "aliases": ["A1c", "Glycated Hemoglobin", "Glycosylated Hemoglobin", "Hemoglobin A1c"]},
+    {"id": "creatinine", "name": "Creatinine", "category": "Kidney", "unit": "mg/dL", "typical_range": "0.7 - 1.3", "decimals": 2, "aliases": ["Serum Creatinine", "S. Creatinine"]},
+    {"id": "urea", "name": "Blood Urea", "category": "Kidney", "unit": "mg/dL", "typical_range": "15 - 40", "decimals": 0, "aliases": ["Urea", "Serum Urea", "BUN", "Blood Urea Nitrogen"]},
+    {"id": "uric_acid", "name": "Uric Acid", "category": "Kidney", "unit": "mg/dL", "typical_range": "3.5 - 7.2", "decimals": 1, "aliases": ["Serum Uric Acid", "S. Uric Acid"]},
+    {"id": "alt", "name": "ALT (SGPT)", "category": "Liver", "unit": "U/L", "typical_range": "7 - 56", "decimals": 0, "aliases": ["ALT", "SGPT", "Alanine Aminotransferase", "ALT/SGPT"]},
+    {"id": "ast", "name": "AST (SGOT)", "category": "Liver", "unit": "U/L", "typical_range": "10 - 40", "decimals": 0, "aliases": ["AST", "SGOT", "Aspartate Aminotransferase", "AST/SGOT"]},
+    {"id": "alp", "name": "Alkaline Phosphatase", "category": "Liver", "unit": "U/L", "typical_range": "44 - 147", "decimals": 0, "aliases": ["ALP", "Alk Phos", "Alkaline Phosphatase (ALP)"]},
+    {"id": "bilirubin_total", "name": "Total Bilirubin", "category": "Liver", "unit": "mg/dL", "typical_range": "0.3 - 1.2", "decimals": 1, "aliases": ["Bilirubin Total", "T. Bilirubin", "Serum Bilirubin", "Bilirubin"]},
+    {"id": "tsh", "name": "TSH", "category": "Thyroid", "unit": "mIU/L", "typical_range": "0.4 - 4.0", "decimals": 2, "aliases": ["Thyroid Stimulating Hormone", "TSH Ultrasensitive", "S. TSH"]},
+    {"id": "vitamin_d", "name": "Vitamin D (25-OH)", "category": "Vitamins", "unit": "ng/mL", "typical_range": "30 - 100", "decimals": 1, "aliases": ["Vitamin D", "25-OH Vitamin D", "25 Hydroxy Vitamin D", "Vit D"]},
+    {"id": "vitamin_b12", "name": "Vitamin B12", "category": "Vitamins", "unit": "pg/mL", "typical_range": "200 - 900", "decimals": 0, "aliases": ["B12", "Cyanocobalamin", "Vit B12", "Serum B12"]},
+    {"id": "sodium", "name": "Sodium", "category": "Electrolytes", "unit": "mmol/L", "typical_range": "135 - 145", "decimals": 0, "aliases": ["Na", "Na+", "Serum Sodium"]},
+    {"id": "potassium", "name": "Potassium", "category": "Electrolytes", "unit": "mmol/L", "typical_range": "3.5 - 5.0", "decimals": 1, "aliases": ["K", "K+", "Serum Potassium"]},
+    {"id": "urine_ph", "name": "Urine pH", "category": "Urine", "unit": "", "typical_range": "4.6 - 8.0", "decimals": 1, "aliases": ["pH", "Urine Reaction", "Reaction (pH)"]},
+    {"id": "urine_sg", "name": "Urine Specific Gravity", "category": "Urine", "unit": "", "typical_range": "1.005 - 1.030", "decimals": 3, "aliases": ["Specific Gravity", "Sp. Gravity", "SG"]}
+  ]
+}
