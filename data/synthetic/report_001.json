@@ -1,0 +1,132 @@
+{
+  "seed": 43,
+  "layout": "grid",
+  "rows": [
+    {
+      "biomarker_id": "hematocrit",
+      "raw_name": "Haematocrit",
+      "value": 48.5,
+      "unit": "%",
+      "reference_range": "40 - 50",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "platelets",
+      "raw_name": "Platelet",
+      "value": 397.0,
+      "unit": "x10^3/uL",
+      "reference_range": "150 - 410",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hemoglobin",
+      "raw_name": "Haemoglobin",
+      "value": 18.3,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "expected_flag": "high",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hba1c",
+      "raw_name": "A1c",
+      "value": 3.5,
+      "unit": "%",
+      "reference_range": "4.0 - 5.6",
+      "expected_flag": "low",
+      "category": "Diabetes"
+    },
+    {
+      "biomarker_id": "sodium",
+      "raw_name": "Na+",
+      "value": 141.0,
+      "unit": "mmol/L",
+      "reference_range": "135 - 145",
+      "expected_flag": "normal",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "creatinine",
+      "raw_name": "Creatinine",
+      "value": 0.93,
+      "unit": "mg/dL",
+      "reference_range": "0.7 - 1.3",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "urea",
+      "raw_name": "Blood Urea",
+      "value": 20.0,
+      "unit": "mg/dL",
+      "reference_range": "15 - 40",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "uric_acid",
+      "raw_name": "Uric Acid",
+      "value": 4.6,
+      "unit": "mg/dL",
+      "reference_range": "3.5 - 7.2",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "triglycerides",
+      "raw_name": "Triglycerides",
+      "value": 69.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "ldl",
+      "raw_name": "LDL-C",
+      "value": 139.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "expected_flag": "high",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "alp",
+      "raw_name": "Alkaline Phosphatase (ALP)",
+      "value": 112.0,
+      "unit": "U/L",
+      "reference_range": "44 - 147",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "tsh",
+      "raw_name": "TSH",
+      "value": 5.16,
+      "unit": "mIU/L",
+      "reference_range": "0.4 - 4.0",
+      "expected_flag": "high",
+      "category": "Thyroid"
+    },
+    {
+      "biomarker_id": "urine_ph",
+      "raw_name": "pH",
+      "value": 5.5,
+      "unit": "",
+      "reference_range": "4.6 - 8.0",
+      "expected_flag": "normal",
+      "category": "Urine"
+    },
+    {
+      "biomarker_id": "vitamin_d",
+      "raw_name": "Vit D",
+      "value": 34.9,
+      "unit": "ng/mL",
+      "reference_range": "30 - 100",
+      "expected_flag": "normal",
+      "category": "Vitamins"
+    }
+  ]
+}

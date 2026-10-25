@@ -1,0 +1,150 @@
+{
+  "seed": 45,
+  "layout": "compact",
+  "rows": [
+    {
+      "biomarker_id": "rbc",
+      "raw_name": "RBC",
+      "value": 5.6,
+      "unit": "million/uL",
+      "reference_range": "4.5 - 5.5",
+      "expected_flag": "high",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hemoglobin",
+      "raw_name": "Hemoglobin",
+      "value": 18.2,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "expected_flag": "high",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "platelets",
+      "raw_name": "Platelet Count",
+      "value": 187.0,
+      "unit": "x10^3/uL",
+      "reference_range": "150 - 410",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hba1c",
+      "raw_name": "Glycated Hemoglobin",
+      "value": 4.3,
+      "unit": "%",
+      "reference_range": "4.0 - 5.6",
+      "expected_flag": "normal",
+      "category": "Diabetes"
+    },
+    {
+      "biomarker_id": "potassium",
+      "raw_name": "K+",
+      "value": 4.6,
+      "unit": "mmol/L",
+      "reference_range": "3.5 - 5.0",
+      "expected_flag": "normal",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "sodium",
+      "raw_name": "Na+",
+      "value": 132.0,
+      "unit": "mmol/L",
+      "reference_range": "135 - 145",
+      "expected_flag": "low",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "urea",
+      "raw_name": "Blood Urea Nitrogen",
+      "value": 32.0,
+      "unit": "mg/dL",
+      "reference_range": "15 - 40",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "total_cholesterol",
+      "raw_name": "T. Cholesterol",
+      "value": 181.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "ldl",
+      "raw_name": "Low Density Lipoprotein",
+      "value": 77.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "hdl",
+      "raw_name": "HDL-C",
+      "value": 52.0,
+      "unit": "mg/dL",
+      "reference_range": "> 40",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "triglycerides",
+      "raw_name": "Triglycerides",
+      "value": 91.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "ast",
+      "raw_name": "AST",
+      "value": 46.0,
+      "unit": "U/L",
+      "reference_range": "10 - 40",
+      "expected_flag": "high",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "alt",
+      "raw_name": "ALT",
+      "value": 48.0,
+      "unit": "U/L",
+      "reference_range": "7 - 56",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "urine_sg",
+      "raw_name": "SG",
+      "value": 1.019,
+      "unit": "",
+      "reference_range": "1.005 - 1.030",
+      "expected_flag": "normal",
+      "category": "Urine"
+    },
+    {
+      "biomarker_id": "vitamin_d",
+      "raw_name": "Vit D",
+      "value": 125.6,
+      "unit": "ng/mL",
+      "reference_range": "30 - 100",
+      "expected_flag": "high",
+      "category": "Vitamins"
+    },
+    {
+      "biomarker_id": "vitamin_b12",
+      "raw_name": "Serum B12",
+      "value": 661.0,
+      "unit": "pg/mL",
+      "reference_range": "200 - 900",
+      "expected_flag": "normal",
+      "category": "Vitamins"
+    }
+  ]
+}

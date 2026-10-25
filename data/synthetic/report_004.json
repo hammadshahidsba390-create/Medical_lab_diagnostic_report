@@ -1,0 +1,150 @@
+{
+  "seed": 46,
+  "layout": "grid",
+  "rows": [
+    {
+      "biomarker_id": "wbc",
+      "raw_name": "TLC",
+      "value": 4.9,
+      "unit": "x10^3/uL",
+      "reference_range": "4.0 - 11.0",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "mchc",
+      "raw_name": "Mean Corpuscular Hemoglobin Concentration",
+      "value": 34.4,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 34.5",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hematocrit",
+      "raw_name": "PCV",
+      "value": 47.1,
+      "unit": "%",
+      "reference_range": "40 - 50",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hemoglobin",
+      "raw_name": "Hemoglobin (Hb)",
+      "value": 12.7,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "expected_flag": "low",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "rbc",
+      "raw_name": "Red Blood Cells",
+      "value": 5.12,
+      "unit": "million/uL",
+      "reference_range": "4.5 - 5.5",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hba1c",
+      "raw_name": "Glycated Hemoglobin",
+      "value": 6.1,
+      "unit": "%",
+      "reference_range": "4.0 - 5.6",
+      "expected_flag": "high",
+      "category": "Diabetes"
+    },
+    {
+      "biomarker_id": "potassium",
+      "raw_name": "K+",
+      "value": 5.5,
+      "unit": "mmol/L",
+      "reference_range": "3.5 - 5.0",
+      "expected_flag": "high",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "uric_acid",
+      "raw_name": "Serum Uric Acid",
+      "value": 5.0,
+      "unit": "mg/dL",
+      "reference_range": "3.5 - 7.2",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "urea",
+      "raw_name": "Urea",
+      "value": 34.0,
+      "unit": "mg/dL",
+      "reference_range": "15 - 40",
+      "expected_flag": "normal",
+      "category": "Kidney"
+    },
+    {
+      "biomarker_id": "hdl",
+      "raw_name": "HDL-C",
+      "value": 54.0,
+      "unit": "mg/dL",
+      "reference_range": "> 40",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "ast",
+      "raw_name": "AST/SGOT",
+      "value": 7.0,
+      "unit": "U/L",
+      "reference_range": "10 - 40",
+      "expected_flag": "low",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "bilirubin_total",
+      "raw_name": "Bilirubin",
+      "value": 1.5,
+      "unit": "mg/dL",
+      "reference_range": "0.3 - 1.2",
+      "expected_flag": "high",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "alt",
+      "raw_name": "ALT",
+      "value": 42.0,
+      "unit": "U/L",
+      "reference_range": "7 - 56",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "alp",
+      "raw_name": "ALP",
+      "value": 18.0,
+      "unit": "U/L",
+      "reference_range": "44 - 147",
+      "expected_flag": "low",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "urine_ph",
+      "raw_name": "pH",
+      "value": 6.9,
+      "unit": "",
+      "reference_range": "4.6 - 8.0",
+      "expected_flag": "normal",
+      "category": "Urine"
+    },
+    {
+      "biomarker_id": "urine_sg",
+      "raw_name": "Urine Specific Gravity",
+      "value": 1.015,
+      "unit": "",
+      "reference_range": "1.005 - 1.030",
+      "expected_flag": "normal",
+      "category": "Urine"
+    }
+  ]
+}

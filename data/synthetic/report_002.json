@@ -1,0 +1,168 @@
+{
+  "seed": 44,
+  "layout": "compact",
+  "rows": [
+    {
+      "biomarker_id": "platelets",
+      "raw_name": "Platelets",
+      "value": 255.0,
+      "unit": "x10^3/uL",
+      "reference_range": "150 - 410",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "mcv",
+      "raw_name": "MCV",
+      "value": 89.1,
+      "unit": "fL",
+      "reference_range": "83 - 101",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "mchc",
+      "raw_name": "Mean Corpuscular Hemoglobin Concentration",
+      "value": 31.8,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 34.5",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hemoglobin",
+      "raw_name": "HGB",
+      "value": 14.1,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hematocrit",
+      "raw_name": "Hematocrit",
+      "value": 53.9,
+      "unit": "%",
+      "reference_range": "40 - 50",
+      "expected_flag": "high",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "glucose_fasting",
+      "raw_name": "Fasting Blood Sugar",
+      "value": 73.0,
+      "unit": "mg/dL",
+      "reference_range": "70 - 100",
+      "expected_flag": "normal",
+      "category": "Diabetes"
+    },
+    {
+      "biomarker_id": "potassium",
+      "raw_name": "K+",
+      "value": 3.8,
+      "unit": "mmol/L",
+      "reference_range": "3.5 - 5.0",
+      "expected_flag": "normal",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "sodium",
+      "raw_name": "Sodium",
+      "value": 143.0,
+      "unit": "mmol/L",
+      "reference_range": "135 - 145",
+      "expected_flag": "normal",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "ldl",
+      "raw_name": "LDL Cholesterol Direct",
+      "value": 87.0,
+      "unit": "mg/dL",
+      "reference_range": "< 100",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "total_cholesterol",
+      "raw_name": "Cholesterol Total",
+      "value": 166.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "triglycerides",
+      "raw_name": "Serum Triglycerides",
+      "value": 101.0,
+      "unit": "mg/dL",
+      "reference_range": "< 150",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "hdl",
+      "raw_name": "HDL",
+      "value": 53.0,
+      "unit": "mg/dL",
+      "reference_range": "> 40",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "alt",
+      "raw_name": "SGPT",
+      "value": 56.0,
+      "unit": "U/L",
+      "reference_range": "7 - 56",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "bilirubin_total",
+      "raw_name": "Total Bilirubin",
+      "value": 1.2,
+      "unit": "mg/dL",
+      "reference_range": "0.3 - 1.2",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "ast",
+      "raw_name": "AST/SGOT",
+      "value": 4.0,
+      "unit": "U/L",
+      "reference_range": "10 - 40",
+      "expected_flag": "low",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "urine_ph",
+      "raw_name": "Urine Reaction",
+      "value": 6.8,
+      "unit": "",
+      "reference_range": "4.6 - 8.0",
+      "expected_flag": "normal",
+      "category": "Urine"
+    },
+    {
+      "biomarker_id": "vitamin_d",
+      "raw_name": "Vitamin D",
+      "value": 55.0,
+      "unit": "ng/mL",
+      "reference_range": "30 - 100",
+      "expected_flag": "normal",
+      "category": "Vitamins"
+    },
+    {
+      "biomarker_id": "vitamin_b12",
+      "raw_name": "Vitamin B12",
+      "value": 453.0,
+      "unit": "pg/mL",
+      "reference_range": "200 - 900",
+      "expected_flag": "normal",
+      "category": "Vitamins"
+    }
+  ]
+}

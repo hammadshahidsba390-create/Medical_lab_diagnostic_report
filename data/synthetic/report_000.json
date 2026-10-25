@@ -1,0 +1,105 @@
+{
+  "seed": 42,
+  "layout": "range_first",
+  "rows": [
+    {
+      "biomarker_id": "hemoglobin",
+      "raw_name": "Haemoglobin (Hb)",
+      "value": 12.5,
+      "unit": "g/dL",
+      "reference_range": "13.0 - 17.0",
+      "expected_flag": "low",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "mchc",
+      "raw_name": "MCHC",
+      "value": 30.7,
+      "unit": "g/dL",
+      "reference_range": "31.5 - 34.5",
+      "expected_flag": "low",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hematocrit",
+      "raw_name": "Hematocrit",
+      "value": 53.3,
+      "unit": "%",
+      "reference_range": "40 - 50",
+      "expected_flag": "high",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "platelets",
+      "raw_name": "Platelet",
+      "value": 192.0,
+      "unit": "x10^3/uL",
+      "reference_range": "150 - 410",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "rbc",
+      "raw_name": "Total RBC Count",
+      "value": 4.66,
+      "unit": "million/uL",
+      "reference_range": "4.5 - 5.5",
+      "expected_flag": "normal",
+      "category": "CBC"
+    },
+    {
+      "biomarker_id": "hba1c",
+      "raw_name": "Glycated Hemoglobin",
+      "value": 3.7,
+      "unit": "%",
+      "reference_range": "4.0 - 5.6",
+      "expected_flag": "low",
+      "category": "Diabetes"
+    },
+    {
+      "biomarker_id": "sodium",
+      "raw_name": "Serum Sodium",
+      "value": 143.0,
+      "unit": "mmol/L",
+      "reference_range": "135 - 145",
+      "expected_flag": "normal",
+      "category": "Electrolytes"
+    },
+    {
+      "biomarker_id": "total_cholesterol",
+      "raw_name": "Serum Cholesterol",
+      "value": 193.0,
+      "unit": "mg/dL",
+      "reference_range": "< 200",
+      "expected_flag": "normal",
+      "category": "Lipid"
+    },
+    {
+      "biomarker_id": "alt",
+      "raw_name": "SGPT",
+      "value": 3.0,
+      "unit": "U/L",
+      "reference_range": "7 - 56",
+      "expected_flag": "low",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "ast",
+      "raw_name": "AST (SGOT)",
+      "value": 31.0,
+      "unit": "U/L",
+      "reference_range": "10 - 40",
+      "expected_flag": "normal",
+      "category": "Liver"
+    },
+    {
+      "biomarker_id": "vitamin_b12",
+      "raw_name": "Vitamin B12",
+      "value": 741.0,
+      "unit": "pg/mL",
+      "reference_range": "200 - 900",
+      "expected_flag": "normal",
+      "category": "Vitamins"
+    }
+  ]
+}
