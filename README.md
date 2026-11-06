@@ -20,8 +20,9 @@ prepare questions for their doctor. It does **not** diagnose or give treatment a
 |---|---|
 | Rule engine, name normalizer, `/api/v1/analyze`, synthetic report generator | Done, tested |
 | Users table + migration, register, login, logout, current user, admin guard | Done, tested (Week 5) |
-| Web client: landing, register, login, dashboard | Done, builds and lints (Week 5) |
-| Upload, extraction, explanations, checklist, admin pages, deployment | Planned (Weeks 6 to 11) |
+| Core business logic, reports migration, `/api/v1/reports`, end-to-end vertical slice | Done, tested (Week 6) |
+| Web client: landing, register, login, lab analyzer & reports history | Done, builds and lints (Week 6) |
+| PDF/image OCR extraction, AI explanations, checklist, admin workstation, deployment | Planned (Weeks 7 to 11) |
 
 ## Run the API (Windows PowerShell or Command Prompt)
 ```

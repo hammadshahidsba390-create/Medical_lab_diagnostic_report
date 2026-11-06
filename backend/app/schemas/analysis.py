@@ -44,3 +44,18 @@ class AnalyzeResponse(BaseModel):
     results: list[ResultRow]
     summary: Summary
     disclaimer: str
+
+
+class CreateReportRequest(BaseModel):
+    title: str = Field(default="Diagnostic Report", min_length=1, max_length=255)
+    rows: list[ExtractedRow] = Field(min_length=1, max_length=200)
+
+
+class ReportResponse(BaseModel):
+    id: str
+    user_id: str
+    title: str
+    results: list[ResultRow]
+    summary: Summary
+    created_at: str
+    disclaimer: str

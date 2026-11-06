@@ -14,6 +14,44 @@ export class ApiError extends Error {
 export type User = { id: string; email: string; role: string };
 export type TokenResponse = { access_token: string; token_type: string; expires_in: number };
 
+export type ExtractedRow = {
+  raw_name: string;
+  value: number | string;
+  unit?: string | null;
+  reference_range?: string | null;
+};
+
+export type ResultRow = {
+  raw_name: string;
+  biomarker_id: string | null;
+  biomarker_name: string | null;
+  match_score: number;
+  value: number | string;
+  unit?: string | null;
+  reference_range?: string | null;
+  range_source: "report" | "unavailable";
+  flag: "low" | "normal" | "high" | "unknown";
+};
+
+export type ReportSummary = {
+  total: number;
+  low: number;
+  normal: number;
+  high: number;
+  unknown: number;
+  unmatched: number;
+};
+
+export type Report = {
+  id: string;
+  user_id: string;
+  title: string;
+  results: ResultRow[];
+  summary: ReportSummary;
+  created_at: string;
+  disclaimer: string;
+};
+
 async function request<T>(path: string, options: RequestInit = {}, token?: string | null): Promise<T> {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
@@ -43,4 +81,9 @@ export const api = {
     request<TokenResponse>("/api/v1/auth/login", { method: "POST", body: JSON.stringify({ email, password }) }),
   logout: (token: string) => request<void>("/api/v1/auth/logout", { method: "POST" }, token),
   me: (token: string) => request<User>("/api/v1/me", {}, token),
+  createReport: (token: string, title: string, rows: ExtractedRow[]) =>
+    request<Report>("/api/v1/reports", { method: "POST", body: JSON.stringify({ title, rows }) }, token),
+  listReports: (token: string) => request<Report[]>("/api/v1/reports", {}, token),
+  getReport: (token: string, id: string) => request<Report>(`/api/v1/reports/${id}`, {}, token),
+  deleteReport: (token: string, id: string) => request<void>(`/api/v1/reports/${id}`, { method: "DELETE" }, token),
 };
